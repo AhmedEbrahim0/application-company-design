@@ -1,0 +1,350 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: bold;
+    src: url(Bold\ Testament.otf);
+}
+.btn-fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius:50% ;
+    border: none;
+    background-color: #ff9900;
+    box-shadow: 1px 1px 10px #ff9900;
+    color: white;
+    font-size: 19px;
+    transition: all 1s;
+}
+
+ul li {
+    display: inline-block;
+      list-style: none ;
+  } 
+.font-size{
+    font-size: 20px;
+}
+.p-pro{
+    padding: 140px;
+}
+.font-bold{
+font-weight: bold;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 10px;
+}
+.c-pro{
+    color: rgba(255, 85, 0, 0.938);
+}
+.c-b{
+    color: black !important;
+}
+
+.c-w{
+    color: white ;
+}
+.text-none{
+    text-decoration: none ;
+}
+/* global */
+/* media */
+
+
+
+
+/* media */
+
+/*               navbar  */
+
+
+.nav-link{
+    color: #000000;
+  font-family: bold;
+    font-size: 25px !important ;
+    padding: 10px 0px;
+    transition: all 0.7s;
+}
+body  .navbar ul li .nav-link:hover{
+    color: #ff9900 !important ;
+    border-bottom: solid #ff9900;
+}
+body .navbar .navbar-logo{
+ height: 80px;
+}
+body .navbar{
+    transform: translateY(-7px);   
+    padding: 6px;
+    position: sticky ;
+    z-index: 1000;
+    top: 0;
+}
+.navbar-logo{
+    height: 60px;
+    border-radius:50% ;
+}
+.btn-navbar{
+    background-color: transparent;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: inset 0 0 10px #c7c7c7;
+    transition: all 0.5s;
+}
+.btn-navbar:hover{
+    background-color: #ff9900;
+    color: white;
+    box-shadow: none;
+}
+.navbar ul li {
+    margin: 0px 5px;
+}
+
+.navbar ul li a{
+color: black;
+    font-size: 20px;
+    font-weight: 5000;
+}  
+.btn-login-modal{
+    background-color: #ff9900;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateX(-100px);   
+    transition: all 2s; 
+}
+.btn-login-modal:hover{
+    transform: translateX(0);
+}
+/*               navbar  */
+
+/*                       first section                        */
+.se1{
+    height: 100vh;
+}
+
+.se2-service{
+    text-align: center;
+    /* transform: translateY(-100px); */
+}
+ .se2-service .span{
+     border-bottom: solid 3px #f50;
+     display: block;
+     margin-left: 47%;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.se4{
+    margin-top: 100px;
+}
+
+/*               login                */
+.btn-out{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 70%;
+  color: white;
+  font-size: 30px;
+    top: 10%;
+}
+
+.login-modal{
+    display: none;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: black !important;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+}
+.zz{
+   background-color: white;
+   position: absolute;
+   top: 15%;
+}
+@media only screen and (max-width:1024px ) {
+.links-modal{
+    display: none;
+}
+}
+.row1{
+    
+    background-color: white;
+    font-size: 16px;
+    height: 50%;
+    /* width: 600px; */
+    width: 50%;
+    border-radius: 10px;
+}
+.in{
+    margin: 10px 0px;
+    width: 100%;
+    border: solid 0.01px wheat;}
+.i{
+    font-size: 10px;
+    margin-right: 35px;
+}
+.span{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    width: 100%;
+    display: block;
+    background-color: #328a36;
+    color:white;
+    border: solid 0.5px;
+}
+.div1,.div2,.div3{
+    height: 30px;
+    width: 100%;
+    color: white;
+    
+}
+.div1{
+    background-color: rgba(0, 0, 255, 0.753);
+}
+.div2{
+    background-color: rgba(15, 168, 214, 0.637);
+}
+.div3{
+    background-color: rgb(173, 32, 32);
+}
+h4{
+color: rgba(255, 255, 255, 0.863);
+font-size: 15px;
+
+}
+.aa{
+    color:green;
+    font-size: 13px;
+}
+/*               login                */
+/* se4 */
+.se5{
+    margin-top: 100px;
+}
+.del{
+    color: red;
+}
+/* se4 */
+.section-last{
+    background-color: #111;
+    color: white;
+}
+
+/*                       first section                        */
+
+
+/*   form-pay */
+
+.form-pay{
+   background-image: url(../img/pay/e-payment-pay-pass-flat-vector-illustration-e-payment-flat-vector-illustration-nfc-buyer-paying-credit-card-using-pos-154540833.jpg);
+   height: 100vh;
+    position: relative;
+    top: 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999999;
+    width: 100%;
+    display: none;
+}
+.form_pay{
+background-color: transparent;
+/* background-color: #ddd; */
+ position: absolute;
+ top: 25%;
+ left: 26%;
+ width: 500px !important;
+ padding: 60px;
+ padding-left: 50px;
+ border: solid blue 0.5px ;
+ border-radius: 10px;
+ overflow-x: hidden;
+
+}
+.in-pay{
+    display: block;
+    width: 100%;
+
+}
+.ins-pay{
+    border: 0.5px solid blue;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1000000;
+}
+.ins-pay::placeholder{
+    color: blue;
+}
+.in-s-pay{
+    display: inline-block; 
+    width: 48%;
+}
+.ins{
+    margin-left: 10px;
+}
+.btn-pay{
+    width: 100%;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.btn-out-pay{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 7%;
+    left: 69%;
+
+}
+@media only screen and (max-width: 768px ) {
+
+    .form_pay{
+        left: 0%;
+    }
+    .btn-out-pay{
+
+        top: 8%;
+        left: 74%;
+    }
+}
+@media only screen and (max-width: 360px ){
+    .form_pay{
+        left: 0%;
+    }
+    .btn-out-pay{
+        top: 10%;
+        left: 69%;
+    }
+}
+/*   form-pay */
+
+
